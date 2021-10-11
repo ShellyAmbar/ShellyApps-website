@@ -80,6 +80,20 @@
   opacity: 1;
 }
 
+.timeline-body ul li:nth-child(odd) {
+  transform: translate(-100%);
+  border-radius: 20px;
+}
+.timeline-body ul li:nth-child(even) {
+  transform: translate(100%);
+  border-radius: 20px;
+}
+
+.timeline-body ul li:nth-child(odd).appear,
+.timeline-body ul li:nth-child(even).appear {
+  transform: translateX(0);
+}
+
 @media only screen and (min-width: 768px) {
   .timeline-body::before {
     content: "";
