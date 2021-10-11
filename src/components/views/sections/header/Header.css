@@ -1,0 +1,79 @@
+.header-wraper {
+  position: relative;
+  background: url(/src/images/website-design.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.main-info h1 {
+  text-align: center;
+  color: var(--secondery) !important;
+  font-weight: 800;
+  font-size: 50px;
+  background-color: var(--text-back) !important;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.typed-text {
+  color: var(--primary-white) !important;
+  font-weight: 800;
+  font-size: 50px;
+  background-color: var(--text-back) !important;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.btn-main-offer {
+  z-index: 2;
+  border: 1px solid var(--secondery);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  background-color: transparent;
+  margin: 2rem;
+}
+.btn-main-offer:hover {
+  color: var(--primary-white);
+  background-color: var(--secondery);
+  transition: 0.2s ease-in-out;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .particles {
+    display: none;
+  }
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.5rem !important;
+  }
+  .btn-main-offer {
+    font-size: 1rem !important;
+  }
+}

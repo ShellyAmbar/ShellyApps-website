@@ -1,0 +1,49 @@
+.projects-container {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--back);
+}
+
+.projects-body {
+  width: 80%;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-view {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.grid-view {
+  width: 100%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+@media (max-width: 768px) {
+  .slider-view {
+    display: flex;
+  }
+  .grid-view {
+    display: none;
+  }
+}
