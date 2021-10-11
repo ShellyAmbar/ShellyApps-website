@@ -8,6 +8,7 @@
   background-color: var(--back);
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .timeline-body {

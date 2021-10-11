@@ -138,7 +138,6 @@ const ContactMe = () => {
             height="auto"
             allowfullscreen=""
             aria-hidden="false"
-            loading="lazy"
           ></iframe>
         </div>
       </div>
