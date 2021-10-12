@@ -2,12 +2,17 @@
   border: 1px solid var(--primary-white);
   border-radius: 100%;
   background: transparent;
-  padding: 60px 60px;
-  height: auto;
-  width: auto;
+  padding: 20px;
   display: flex;
   text-align: center;
   color: var(--primary-white);
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .bubble-container {
+    font-size: 18px;
+    padding: 10%;
+    font-weight: 300;
+  }
 }

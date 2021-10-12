@@ -17,9 +17,11 @@ const Technologies = () => {
     let list = data.filter((obj, index) => index % 2 === 1);
     return list;
   };
+
   return (
     <div id="Technologies" className="technologies-container">
       <h1>Technologies</h1>
+
       <div className="technologies-body">
         <div className="list">
           {evenList().map((obj, index) => {
@@ -28,8 +30,7 @@ const Technologies = () => {
               <div
                 className="bubble fade-in"
                 style={{
-                  top: `${top}px`,
-                  left: `${index}px`,
+                  top: `${2 * top}px`,
                   transitionDelay: `${index * 500}ms`,
                 }}
               >
@@ -38,6 +39,7 @@ const Technologies = () => {
             );
           })}
         </div>
+
         <div className="list">
           {oddList().map((obj, index) => {
             let top = Math.floor(Math.random() * 20);
@@ -45,8 +47,7 @@ const Technologies = () => {
               <div
                 className="bubble fade-in"
                 style={{
-                  top: `${top}px`,
-                  left: `${index}px`,
+                  top: `${2 * top}px`,
                   transitionDelay: `${(oddList().length - index - 1) * 500}ms`,
                 }}
               >
