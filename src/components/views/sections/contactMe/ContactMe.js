@@ -56,7 +56,7 @@ const ContactMe = () => {
           <p>{address}</p>
           <ul>
             <li>
-              <a
+              <button
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/in/shelly-ambar-a96382146/",
@@ -65,10 +65,10 @@ const ContactMe = () => {
                 }
               >
                 <i class="fab fa-linkedin"></i>
-              </a>
+              </button>
             </li>
             <li>
-              <a
+              <button
                 onClick={() =>
                   window.open(
                     "https://github.com/ShellyAmbar?tab=repositories",
@@ -77,10 +77,10 @@ const ContactMe = () => {
                 }
               >
                 <i class="fab fa-github"></i>
-              </a>
+              </button>
             </li>
             <li>
-              <a
+              <button
                 onClick={() =>
                   window.open(
                     "https://www.youtube.com/user/shelllly1",
@@ -89,16 +89,16 @@ const ContactMe = () => {
                 }
               >
                 <i class="fab fa-youtube"></i>
-              </a>
+              </button>
             </li>
             <li>
-              <a
+              <button
                 onClick={() =>
                   window.open("https://wa.me/+972536200540", "_blank")
                 }
               >
                 <i class="fab fa-whatsapp"></i>
-              </a>
+              </button>
             </li>
           </ul>
         </div>
@@ -133,6 +133,7 @@ const ContactMe = () => {
         </div>
         <div className="contact-in slide-in from-right">
           <iframe
+            title="location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.155891632832!2d34.816424320299596!3d32.092072181276386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4bd2405accab%3A0xef4c103fc3626b55!2z15DXkdeZ15HXmdedIDEyLCDXqNee16og15LXnw!5e0!3m2!1siw!2sil!4v1633894584416!5m2!1siw!2sil"
             width="100%"
             height="auto"

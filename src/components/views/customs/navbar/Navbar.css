@@ -9,7 +9,7 @@
   top: 0;
 }
 
-nav a.nav-link {
+.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -35,6 +35,8 @@ nav ul li {
   color: var(--secondery) !important;
 }
 .navbar-brand {
+  background-color: transparent;
+  border: none;
   display: flex;
   flex-direction: column;
   max-width: 17.25rem;

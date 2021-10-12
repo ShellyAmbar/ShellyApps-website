@@ -106,7 +106,7 @@
   display: inline-block;
   margin: 10px;
 }
-.contact-in ul li a {
+.contact-in ul li button {
   display: block;
   width: 50px;
   height: 50px;
@@ -115,12 +115,12 @@
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px var(--secondery);
 }
-.contact-in ul li a i {
+.contact-in ul li button i {
   font-size: 30px;
   line-height: 50px;
   color: var(--secondery);
 }
-.contact-in ul li a i:hover {
+.contact-in ul li button i:hover {
   font-size: 40px;
 }
 

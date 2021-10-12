@@ -20,27 +20,26 @@ const CardProject = ({ obj, onCliclCard }) => {
         </div>
         <ul className="social-icons-slider">
           <li>
-            <a href={obj.youtubeLink}>
+            <button onClick={() => window.open(obj.youtubeLink, "_blank")}>
               <i class="fab fa-youtube"></i>
-            </a>
+            </button>
           </li>
           <li>
-            <a href={obj.gitLink}>
+            <button onClick={() => window.open(obj.gitLink, "_blank")}>
               <i class="fab fa-github"></i>
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#">
+            <button onClick={() => window.open(obj.siteLink, "_blank")}>
               <i class="fab fa-staylinked"></i>
-            </a>
+            </button>
           </li>
         </ul>
 
         <div className="details-slider">
           <h2>{obj.title}</h2>
           <p>{obj.description}</p>
-          <a
-            href="#"
+          <button
             className="play-btn"
             onClick={() =>
               isPlaying ? setisPlaying(false) : setisPlaying(true)
@@ -51,7 +50,7 @@ const CardProject = ({ obj, onCliclCard }) => {
             ) : (
               <i class="far fa-play-circle fa-4x"></i>
             )}
-          </a>
+          </button>
         </div>
       </div>
     </div>

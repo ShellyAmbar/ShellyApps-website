@@ -54,7 +54,7 @@
   }
 }
 
-.social-icons-slider li a .fab {
+.social-icons-slider li button .fab {
   transition: 0.8s;
   &:hover {
     transform: rotate(360deg);
@@ -91,7 +91,7 @@
   }
 }
 
-.social-icons-slider li a .fab {
+.social-icons-slider li button .fab {
   transition: 0.8s;
   &:hover {
     transform: rotate(360deg);
@@ -109,7 +109,7 @@
   transition-delay: 0.3s;
 }
 
-.social-icons-slider li a:hover {
+.social-icons-slider li button:hover {
   transition: 0.2s;
   background: #000;
 
@@ -166,6 +166,8 @@
 .play-btn {
   margin: 10px;
   color: #fff;
+  background-color: transparent;
+  border: none;
   z-index: 20;
 }
 

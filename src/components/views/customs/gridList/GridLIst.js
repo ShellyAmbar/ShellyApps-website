@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import CardProject from "../cardProject/CardProject";
-import PopUpSlider from "../PopUpSlider/PopUpSlider";
 import ScrollAnimations from "../ScrollAnimations";
 import "./GridList.scss";
 

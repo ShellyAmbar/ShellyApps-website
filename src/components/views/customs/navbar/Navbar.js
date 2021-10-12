@@ -8,9 +8,9 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <button className="navbar-brand">
           <img src={logo} className="nav_logo" alt="" />
-        </a>
+        </button>
         <button
           className="navbar-toggler"
           type="button"
