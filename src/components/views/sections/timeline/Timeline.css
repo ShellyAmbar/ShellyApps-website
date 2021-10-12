@@ -54,23 +54,23 @@
 
 .timeline-body ul li h1 {
   color: var(--primary-white);
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 30px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .timeline-body ul li p {
   color: var(--primary-white);
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 30px;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 20px;
   text-align: center;
 }
 
 .slide-in {
-  transition: transform 400ms ease-in;
+  transition: transform 200ms ease-in;
 }
 
 .fade-in {
@@ -96,6 +96,21 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .timeline-body ul li p {
+    color: var(--primary-white);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .timeline-body ul li h1 {
+    color: var(--primary-white);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
   .timeline-body::before {
     content: "";
     position: absolute;
