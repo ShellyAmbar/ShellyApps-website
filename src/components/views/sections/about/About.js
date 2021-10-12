@@ -11,21 +11,21 @@ const About = () => {
   return (
     <div id="About" className="about-container">
       <div className="about-body">
-        <img alt="" src={logo} className="img-circular slide-in from-left" />
-        <div className="content">
-          <h1 className="fade-in ">About me</h1>
-          <p className="slide-in from-right">
-            Hey! i'm Shelly Ambar, a Software developer from Ramat Gan.
-          </p>
-          <p className="slide-in from-left">
-            I Graduated BS.c in Computer Science from HIT - Holon Institute Of
-            Thechnology.
-          </p>
-          <p className="slide-in from-right">
-            I have over 50 projects in my Github with various types of
-            technologies.
-          </p>
-        </div>
+        <h1 className="fade-in ">About me</h1>
+
+        <img alt="" src={logo} className="img-circular fade-in " />
+
+        <p className="slide-in from-left">
+          Hey! i'm Shelly Ambar, a Software developer from Ramat Gan.
+        </p>
+        <p className="slide-in from-right">
+          I Graduated BS.c in Computer Science from HIT - Holon Institute Of
+          Thechnology.
+        </p>
+        <p className="slide-in from-left">
+          I have over 50 projects in my Github with various types of
+          technologies.
+        </p>
       </div>
     </div>
   );

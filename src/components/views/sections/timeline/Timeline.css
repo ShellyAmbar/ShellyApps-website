@@ -70,7 +70,7 @@
 }
 
 .slide-in {
-  transition: transform 200ms ease-in;
+  transition: transform 500ms ease-in;
 }
 
 .fade-in {

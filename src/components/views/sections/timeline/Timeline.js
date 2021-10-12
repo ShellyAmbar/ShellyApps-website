@@ -15,8 +15,8 @@ const Timeline = () => {
           {timeLineElements.map((item, index) => (
             <li id={index} className="slide-in">
               <h2 className="date">{item.date}</h2>
-              <h1>{item.title}</h1>
-              <p>{item.description}</p>
+              <h1 className="fade-in">{item.title}</h1>
+              <p className="fade-in">{item.description}</p>
             </li>
           ))}
         </ul>
