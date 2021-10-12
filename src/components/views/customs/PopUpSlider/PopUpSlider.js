@@ -20,9 +20,7 @@ function PopUpSlider({ data, sliderTitle, handleClickCard }) {
       <h1>{sliderTitle}</h1>
       <Slider {...settings}>
         {data.map((obj, index) => (
-          // <div className="fade-in">
           <CardProject key={index} obj={obj} onCliclCard={handleClickCard} />
-          // </div>
         ))}
       </Slider>
     </div>
