@@ -11984,10 +11984,10 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.11.1.tgz"
   "version" "1.11.1"
 
-"tsparticles@^1.30.0":
-  "integrity" "sha512-H+ZyDIiTW0G2l8qjxEiri2AnkNjRbitrmOPRKr+CawHFSANmsynVIxu5HMmNP2IE6iCQFgxX4xuDUTu610ae0g=="
-  "resolved" "https://registry.npmjs.org/tsparticles/-/tsparticles-1.35.3.tgz"
-  "version" "1.35.3"
+"tsparticles@^1.30.0", "tsparticles@^1.35.4":
+  "integrity" "sha512-usrQNLXoQKwBz3oOvtrwQCwCFWEX6mb4kPeJG+o9Zse119Sl/zWnPPLu9owQ3iD4hyQqGlXUjUWRwxvUBY+hPA=="
+  "resolved" "https://registry.npmjs.org/tsparticles/-/tsparticles-1.35.4.tgz"
+  "version" "1.35.4"
 
 "tsutils@^3.17.1":
   "integrity" "sha512-kzeQ5B8H3w60nFY2g8cJIuH7JDpsALXySGtwGJ0p2LSjLgay3NdIpqq5SoOBe46bKDW2iq25irHCr8wjomUS2g=="
