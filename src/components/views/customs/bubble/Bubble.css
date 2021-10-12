@@ -1,0 +1,13 @@
+.bubble-container {
+  border: 1px solid var(--primary-white);
+  border-radius: 100%;
+  background: transparent;
+  padding: 60px 60px;
+  height: auto;
+  width: auto;
+  display: flex;
+  text-align: center;
+  color: var(--primary-white);
+  font-size: 20px;
+  font-weight: 300;
+}

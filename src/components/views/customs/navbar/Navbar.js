@@ -63,13 +63,13 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="Services"
+                to="Technologies"
                 spy={true}
                 smooth={true}
                 duration={300}
                 className="nav-link"
               >
-                Services
+                Technologies
               </Link>
             </li>
             <li className="nav-item">
@@ -84,18 +84,7 @@ export const Navbar = () => {
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="Expirience"
-                spy={true}
-                smooth={true}
-                duration={300}
-                className="nav-link"
-              >
-                Expirience
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link
                 activeClass="active"
