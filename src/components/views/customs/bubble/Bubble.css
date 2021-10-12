@@ -11,8 +11,8 @@
 }
 @media (max-width: 768px) {
   .bubble-container {
-    font-size: 15px;
-    padding: 10%;
+    font-size: 12px;
+    padding: 5%;
     font-weight: 100;
   }
 }
