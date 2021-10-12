@@ -22,7 +22,8 @@ const About = () => {
             Thechnology.
           </p>
           <p className="slide-in from-right">
-            I have over 50 projects in my Github with veroius technologies.
+            I have over 50 projects in my Github with various types of
+            technologies.
           </p>
         </div>
       </div>

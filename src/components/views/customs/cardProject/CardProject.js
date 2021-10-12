@@ -20,17 +20,26 @@ const CardProject = ({ obj, onCliclCard }) => {
         </div>
         <ul className="social-icons-slider">
           <li>
-            <button onClick={() => window.open(obj.youtubeLink, "_blank")}>
+            <button
+              className="icon-btn"
+              onClick={() => window.open(obj.youtubeLink, "_blank")}
+            >
               <i class="fab fa-youtube"></i>
             </button>
           </li>
           <li>
-            <button onClick={() => window.open(obj.gitLink, "_blank")}>
+            <button
+              className="icon-btn"
+              onClick={() => window.open(obj.gitLink, "_blank")}
+            >
               <i class="fab fa-github"></i>
             </button>
           </li>
           <li>
-            <button onClick={() => window.open(obj.siteLink, "_blank")}>
+            <button
+              className="icon-btn"
+              onClick={() => window.open(obj.siteLink, "_blank")}
+            >
               <i class="fab fa-staylinked"></i>
             </button>
           </li>

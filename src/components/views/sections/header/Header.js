@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import Typed from "react-typed";
 import Particles from "react-particles-js";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -27,7 +28,7 @@ const Header = () => {
             },
           }}
         />
-        <h1>Web and Mobile Applications development</h1>
+        <h1>Web and Mobile Apps development</h1>
         <Typed
           className="typed-text"
           strings={[
@@ -45,9 +46,16 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <button href="#" className="btn-main-offer">
+        <Link
+          activeClass="active"
+          to="ContactMe"
+          spy={true}
+          smooth={true}
+          duration={300}
+          className="btn-main-offer"
+        >
           Contact Me
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -37,6 +37,7 @@
 }
 
 .btn-main-offer {
+  text-decoration: none;
   z-index: 2;
   border: 1px solid var(--secondery);
   text-transform: uppercase;
@@ -50,6 +51,7 @@
   color: var(--primary-white);
   background-color: var(--secondery);
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .tsparticles-canvas-el {
