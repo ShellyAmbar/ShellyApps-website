@@ -30,7 +30,7 @@
   opacity: 1;
 }
 .slide-in {
-  transition: transform 200ms ease-in;
+  transition: transform 100ms linear;
 }
 .slide-in.appear {
   transform: translate(0);
