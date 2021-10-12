@@ -78,7 +78,7 @@
       display: block;
       width: 50px;
       height: 50px;
-      line-height: 50px;
+
       text-align: center;
       background: #fff;
       font-size: 23px;
@@ -88,6 +88,9 @@
       transition: 0.4s;
       transform: translateY(200px);
       opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
