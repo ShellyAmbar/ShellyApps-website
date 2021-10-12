@@ -38,9 +38,9 @@
       &.slick-active,
       &:hover {
         button {
-          border-color: tomato;
+          border-color: var(--secondery);
           &::before {
-            background-color: tomato;
+            background-color: var(--secondery);
             opacity: 1;
           }
         }
