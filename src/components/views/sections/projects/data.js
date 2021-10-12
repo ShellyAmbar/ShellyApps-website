@@ -1,10 +1,12 @@
 const data = [
   {
     title: "Portofilio in React",
-    youtubeLink: "https://www.youtube.com/watch?v=QNc7lS8KDMY",
+    youtubeLink:
+      "https://www.youtube.com/watch?v=bKAjkQCHIjc&ab_channel=ShellyAmbar",
     gitLink: "https://github.com/ShellyAmbar/ShellyApps-website",
     siteLink: "",
-    description: "Full responsive portofilio website in React.",
+    description:
+      "Full responsive react js web application, designed to mobile view, Contain Scroll Animations, Pure CSS design, Bootstrap, Email System",
   },
   {
     title: "ResuMe in React & Firebase",
