@@ -20,16 +20,16 @@ const About = () => {
           Gan, Israel.
         </p>
         <p className="slide-in from-right">
-          I Graduated BS.c in Computer Science from HIT - Holon Institute Of
+          I Graduated BS.c in Computer Science from HIT - Holon Institute of
           Thechnology and for the last 2 years I worked in the industry as a
-          mobile app developer ( Android and IOS).
+          mobile app developer (Android and IOS).
         </p>
         <p className="slide-in from-left">
           I have over 50 projects in my Github page with various types of
           technologies.
         </p>
         <p className="slide-in from-right">
-          I'm hard-working and always looking to Learn new technologies.
+          I'm hard-working and always looking to learn new technologies.
         </p>
       </div>
     </div>
