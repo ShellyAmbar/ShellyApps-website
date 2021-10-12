@@ -9,7 +9,7 @@ import Timeline from "./components/views/sections/timeline/Timeline";
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Navbar />
       <Header />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Technologies />
       <ContactMe />
-    </>
+    </div>
   );
 }
 
