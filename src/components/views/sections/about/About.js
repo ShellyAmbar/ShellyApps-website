@@ -16,15 +16,20 @@ const About = () => {
         <img alt="" src={logo} className="img-circular fade-in " />
 
         <p className="slide-in from-left">
-          Hey! i'm Shelly Ambar, a Software developer from Ramat Gan.
+          Welcome to my site! I'm Shelly Ambar, a Software developer from Ramat
+          Gan, Israel.
         </p>
         <p className="slide-in from-right">
           I Graduated BS.c in Computer Science from HIT - Holon Institute Of
-          Thechnology.
+          Thechnology and for the last 2 years I worked in the industry as a
+          mobile app developer ( Android and IOS).
         </p>
         <p className="slide-in from-left">
-          I have over 50 projects in my Github with various types of
+          I have over 50 projects in my Github page with various types of
           technologies.
+        </p>
+        <p className="slide-in from-right">
+          I'm hard-working and always looking to Learn new technologies.
         </p>
       </div>
     </div>

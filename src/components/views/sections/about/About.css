@@ -59,6 +59,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .about-body p:nth-last-child() {
   margin-bottom: 50px;
