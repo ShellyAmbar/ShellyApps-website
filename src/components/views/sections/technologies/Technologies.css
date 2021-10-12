@@ -46,10 +46,17 @@
 .bubble {
   opacity: 0;
   position: relative;
+  margin: 10px;
 }
 
 .bubble.appear {
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .bubble {
+    margin: 1px;
+  }
 }
 
 /* .bubble:nth-child(key) {
