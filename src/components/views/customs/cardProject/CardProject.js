@@ -40,6 +40,7 @@ const CardProject = ({ obj, onCliclCard }) => {
           <h2>{obj.title}</h2>
           <p>{obj.description}</p>
           <a
+            href="#"
             className="play-btn"
             onClick={() =>
               isPlaying ? setisPlaying(false) : setisPlaying(true)
