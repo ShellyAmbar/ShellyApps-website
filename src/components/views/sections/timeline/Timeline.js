@@ -10,11 +10,12 @@ const Timeline = () => {
 
   return (
     <div id="Timeline" className="timeline-container">
+      <h1>Timeline</h1>
       <div className="timeline-body">
         <ul>
           {timeLineElements.map((item, index) => (
             <li id={index} className="slide-in">
-              <h2 className="date">{item.date}</h2>
+              <h2 className="date fade-in">{item.date}</h2>
               <h1 className="fade-in">{item.title}</h1>
               <p className="fade-in">{item.description}</p>
             </li>
