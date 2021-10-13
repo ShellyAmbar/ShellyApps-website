@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
 import { Navbar } from "./components/views/customs/navbar/Navbar";
-import Player from "./components/views/customs/Player";
 import About from "./components/views/sections/about/About";
 import ContactMe from "./components/views/sections/contactMe/ContactMe";
 import Header from "./components/views/sections/header/Header";
