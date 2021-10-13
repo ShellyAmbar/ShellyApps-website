@@ -53,22 +53,20 @@
       transform: translateY(-100px);
       transition: all 0.9s;
     }
+
+    cursor: pointer;
+    .details-slider {
+      bottom: 0;
+    }
+
+    .social-icons-slider li .icon-btn {
+      transform: translateY(0px);
+      opacity: 1;
+    }
   }
 }
 
 @media (max-width: 768px) {
-}
-
-.card-slider:hover {
-  cursor: pointer;
-  .details-slider {
-    bottom: 0;
-  }
-
-  .social-icons-slider li .icon-btn {
-    transform: translateY(0px);
-    opacity: 1;
-  }
 }
 
 .social-icons-slider li .icon-btn .fab {
