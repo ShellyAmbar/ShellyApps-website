@@ -3,20 +3,17 @@ import "./CardProject.scss";
 import ReactPlayer from "react-player/youtube";
 
 const CardProject = ({ obj, onCliclCard }) => {
-  const refVideo = useRef(null);
   const [isPlaying, setisPlaying] = useState(false);
   return (
     <div className="card-wrapper-slider">
       <div className="card-slider">
         <div className="card-image-slider">
           <ReactPlayer
-            ref={refVideo}
             width="100%"
             height="100%"
             className="video-player"
             url={obj.youtubeLink}
             playing={isPlaying}
-            onClickPreview=""
           />
         </div>
         <ul className="social-icons-slider">
