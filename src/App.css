@@ -10,6 +10,7 @@ body {
 }
 .app-container {
   background-color: var(--back);
+  background: var(--back);
 }
 
 :root {

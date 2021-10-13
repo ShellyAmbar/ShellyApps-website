@@ -14,6 +14,12 @@ const CardProject = ({ obj, onCliclCard }) => {
             className="video-player"
             url={obj.youtubeLink}
             playing={isPlaying}
+            onPause={() => {
+              setisPlaying(false);
+            }}
+            onPlay={() => {
+              setisPlaying(true);
+            }}
           />
         </div>
         <ul className="social-icons-slider">
