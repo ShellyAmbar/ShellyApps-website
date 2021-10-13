@@ -185,10 +185,6 @@
   .timeline-body ul {
     display: block;
   }
-  /* .row {
-    flex-direction: column;
-    width: auto;
-  } */
 }
 
 @media (max-width: 768px) {
@@ -200,12 +196,4 @@
     display: flex;
     flex-direction: column;
   }
-  /* .row {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  } */
 }
