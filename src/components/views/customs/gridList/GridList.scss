@@ -27,12 +27,3 @@
 .fade-in.appear {
   opacity: 1;
 }
-
-@for $i from 1 through 6 {
-  .item:nth-child(#{$i}) {
-    animation-delay: #{$i * 2}s;
-  }
-}
-
-.item {
-}

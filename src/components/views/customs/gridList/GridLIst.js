@@ -13,7 +13,11 @@ const GridLIst = ({ data, title, handleClickCard }) => {
       <h1>{title}</h1>
       <div className="grid-content">
         {data.map((obj, index) => (
-          <div key={index} className="fade-in">
+          <div
+            style={{ animationDelay: `${index * 50}ms` }}
+            key={index}
+            className="fade-in"
+          >
             <CardProject obj={obj} onCliclCard={handleClickCard} />
           </div>
         ))}
