@@ -14,11 +14,13 @@ const Timeline = () => {
       <div className="timeline-body">
         <ul>
           {timeLineElements.map((item, index) => (
-            <li id={index} className="slide-in">
+            // <div className="row">
+            <li id={index} className="timeline-item slide-in">
               <h2 className="date fade-in">{item.date}</h2>
               <h1 className="fade-in">{item.title}</h1>
               <p className="fade-in">{item.description}</p>
             </li>
+            //   </div>
           ))}
         </ul>
       </div>

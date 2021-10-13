@@ -25,17 +25,20 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .timeline-body ul {
+  padding: 10px;
   justify-self: center;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  width: auto;
+  margin: auto;
+  position: relative;
 }
-.timeline-body ul li {
-  align-self: center;
+.timeline-item {
+  margin: auto;
+  position: relative;
+  justify-self: center;
   background-color: transparent;
   margin-bottom: 20px;
   border: 1px solid var(--primary-white);
@@ -46,11 +49,12 @@
   flex-direction: column;
   padding: 10px;
 }
-.timeline-body ul li :last-child {
+
+.timeline-item :last-child {
   margin-bottom: 0px;
 }
 
-.timeline-body ul li .date {
+.timeline-item .date {
   color: var(--primary-white);
   font-size: 15px;
   font-weight: 500;
@@ -59,7 +63,7 @@
   color: var(--secondery);
 }
 
-.timeline-body ul li h1 {
+.timeline-item h1 {
   color: var(--primary-white);
   font-size: 20px;
   font-weight: 500;
@@ -68,7 +72,7 @@
   text-align: center;
 }
 
-.timeline-body ul li p {
+.timeline-item p {
   color: var(--primary-white);
   font-size: 12px;
   font-weight: 200;
@@ -88,29 +92,27 @@
   opacity: 1;
 }
 
-.timeline-body ul li:nth-child(odd) {
+.timeline-item:nth-child(odd) {
   transform: translate(-100%);
-  border-radius: 20px;
 }
-.timeline-body ul li:nth-child(even) {
+.timeline-item:nth-child(even) {
   transform: translate(100%);
-  border-radius: 20px;
 }
 
-.timeline-body ul li:nth-child(odd).appear,
-.timeline-body ul li:nth-child(even).appear {
+.timeline-item:nth-child(odd).appear,
+.timeline-item:nth-child(even).appear {
   transform: translateX(0);
 }
 
 @media only screen and (min-width: 768px) {
-  .timeline-body ul li p {
+  .timeline-item p {
     color: var(--primary-white);
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
   }
 
-  .timeline-body ul li h1 {
+  .timeline-item h1 {
     color: var(--primary-white);
     font-size: 25px;
     font-weight: 500;
@@ -124,15 +126,13 @@
     height: 100%;
     width: 2px;
     background-color: var(--primary-white);
-    left: 52%;
-    transform: translateX(-50%);
   }
-  .timeline-body ul li {
+  .timeline-item {
     width: 50%;
     margin-bottom: 50px;
     position: relative;
   }
-  .timeline-body ul li::after {
+  .timeline-item::after {
     content: "";
     position: absolute;
     height: 20px;
@@ -141,52 +141,54 @@
     border-radius: 20px;
     top: 0;
   }
-  .timeline-body ul li:hover:after {
+  .timeline-item:hover:after {
     background-color: var(--secondery);
   }
 
-  .timeline-body ul li:nth-child(odd) {
+  .timeline-item:nth-child(odd) {
     float: left;
     clear: right;
     transform: translate(-100%);
     border-radius: 20px 0px 20px 20px;
-    /* transition: translateX(-100%); */
   }
-  .timeline-body ul li:nth-child(even) {
+  .timeline-item:nth-child(even) {
     float: right;
     clear: left;
     transform: translate(100%);
     border-radius: 0px 20px 20px 20px;
-    /* transition: translateX(100%); */
   }
 
-  .timeline-body ul li:nth-child(odd).appear {
+  .timeline-item:nth-child(odd).appear {
     transform: translateX(-30px);
   }
-  .timeline-body ul li:nth-child(even).appear {
+  .timeline-item:nth-child(even).appear {
     transform: translateX(30px);
   }
 
-  .timeline-body ul li:nth-child(odd):hover {
-    border-color: var(--secondery);
-  }
-  .timeline-body ul li:nth-child(even):hover {
+  .timeline-item:hover {
     border-color: var(--secondery);
   }
 
-  .timeline-body ul li:nth-child(odd)::after {
+  .timeline-item:nth-child(odd)::after {
     transform: translate(50%, -50%);
     right: -30px;
   }
-  .timeline-body ul li:nth-child(even)::after {
+  .timeline-item:nth-child(even)::after {
     transform: translate(-50%, -50%);
     left: -30px;
   }
 
-  .timeline-body ul li .date {
+  .timeline-item .date {
     position: absolute;
     top: -20px;
   }
+  .timeline-body ul {
+    display: block;
+  }
+  /* .row {
+    flex-direction: column;
+    width: auto;
+  } */
 }
 
 @media (max-width: 768px) {
@@ -198,4 +200,12 @@
     display: flex;
     flex-direction: column;
   }
+  /* .row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  } */
 }
