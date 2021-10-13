@@ -59,9 +59,7 @@
 @media (max-width: 768px) {
 }
 
-.card-slider:hover,
-:focus,
-:active {
+.card-slider:hover {
   cursor: pointer;
   .details-slider {
     bottom: 0;
