@@ -16,6 +16,7 @@ const CardProject = ({ obj, onCliclCard }) => {
             className="video-player"
             url={obj.youtubeLink}
             playing={isPlaying}
+            onClickPreview=""
           />
         </div>
         <ul className="social-icons-slider">

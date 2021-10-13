@@ -56,7 +56,10 @@
   }
 }
 
-.card-slider:hover,
+@media (max-width: 768px) {
+}
+
+.card-wrapper-slider:hover,
 :focus,
 :active {
   cursor: pointer;
