@@ -6,7 +6,7 @@ const data = [
     gitLink: "https://github.com/ShellyAmbar/ShellyApps-website",
     siteLink: "",
     description:
-      "Full responsive react js web application, designed to mobile view, Contain Scroll Animations, Pure CSS design, Bootstrap, Email System",
+      "Full responsive react js web application. Contain Scroll Animations and Pure CSS design",
   },
   {
     title: "ResuMe in React & Firebase",
