@@ -34,9 +34,18 @@
       height: 100%;
       object-fit: cover;
     }
+    .video-player {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
   &:hover {
     img {
+      opacity: 0.4;
+      transition: 0.5s;
+    }
+    .video-player {
       opacity: 0.4;
       transition: 0.5s;
     }
@@ -47,7 +56,14 @@
   }
 }
 
-.card-slider:hover {
+.card-slider:hover,
+:focus,
+:active {
+  cursor: pointer;
+  .details-slider {
+    bottom: 0;
+  }
+
   .social-icons-slider li .icon-btn {
     transform: translateY(0px);
     opacity: 1;
@@ -155,17 +171,6 @@
   font-size: 20px;
   text-align: center;
   font-weight: 500;
-}
-
-.card-slider:hover {
-  .details-slider {
-    bottom: 0;
-  }
-}
-.video-player {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .play-btn {
