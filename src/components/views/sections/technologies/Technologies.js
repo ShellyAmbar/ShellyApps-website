@@ -8,13 +8,23 @@ const Technologies = () => {
   useEffect(() => {
     ScrollAnimations();
   }, []);
-  const evenList = () => {
-    let list = data.filter((obj, index) => index % 2 === 0);
+  const firstList = () => {
+    let list = data.filter(
+      (obj, index) => index >= 0 && index < data.length / 3
+    );
     console.log("list", list);
     return list;
   };
-  const oddList = () => {
-    let list = data.filter((obj, index) => index % 2 === 1);
+  const secList = () => {
+    let list = data.filter(
+      (obj, index) => index >= data.length / 3 && index < (data.length / 3) * 2
+    );
+    return list;
+  };
+  const thierdList = () => {
+    let list = data.filter(
+      (obj, index) => index >= (data.length / 3) * 2 && index < data.length
+    );
     return list;
   };
 
@@ -24,8 +34,8 @@ const Technologies = () => {
 
       <div className="technologies-body">
         <div className="list">
-          {evenList().map((obj, index) => {
-            let top = Math.floor(Math.random() * 20);
+          {firstList().map((obj, index) => {
+            let top = Math.floor(Math.random() * 15);
             return (
               <div
                 className="bubble fade-in"
@@ -41,14 +51,30 @@ const Technologies = () => {
         </div>
 
         <div className="list">
-          {oddList().map((obj, index) => {
-            let top = Math.floor(Math.random() * 20);
+          {secList().map((obj, index) => {
+            let top = Math.floor(Math.random() * 15);
             return (
               <div
                 className="bubble fade-in"
                 style={{
                   top: `${2 * top}px`,
-                  transitionDelay: `${(oddList().length - index - 1) * 500}ms`,
+                  transitionDelay: `${(secList().length - index - 1) * 500}ms`,
+                }}
+              >
+                <Bubble key={index} text={obj.name} />
+              </div>
+            );
+          })}
+        </div>
+        <div className="list">
+          {thierdList().map((obj, index) => {
+            let top = Math.floor(Math.random() * 15);
+            return (
+              <div
+                className="bubble fade-in"
+                style={{
+                  top: `${2 * top}px`,
+                  transitionDelay: `${index * 500}ms`,
                 }}
               >
                 <Bubble key={index} text={obj.name} />
