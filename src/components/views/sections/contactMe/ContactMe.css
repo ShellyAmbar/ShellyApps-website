@@ -106,7 +106,6 @@
   margin: 10px;
 }
 .contact-in ul li button {
-  display: block;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -206,13 +205,17 @@
   .contact-in ul li button i {
     font-size: 20px;
 
-    line-height: 10px;
+    line-height: 40px;
     color: var(--secondery);
   }
   .contact-in ul li button {
-    display: block;
     width: 40px;
     height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-in h2 i {
@@ -231,7 +234,6 @@
     outline: none;
     width: 100%;
     height: 40px;
-
     font-size: 15px;
   }
 }
