@@ -4,18 +4,20 @@ const ScrollAnimations = () => {
 
   const appearOptions = {
     threshold: 0,
-    rootMargin: "0px 0px -50px 0px",
+    rootMargin: "0px",
+    root: document.querySelector('#scrollArea'),
   };
-  const appearOnScroll = new IntersectionObserver(function (
+  const appearOnScroll = new IntersectionObserver((
     enteries,
     appearOnScroll
-  ) {
-    enteries.forEach((entery) => {
-      if (!entery.isIntersecting) {
-        entery.target.classList.remove("appear");
-        return;
+  ) => {
+    enteries.forEach((entry) => {
+      if (!entry.isIntersecting) {
+        entry.target.classList.remove("appear");
+       
       } else {
-        entery.target.classList.add("appear");
+        entry.target.classList.add("appear");
+        
       }
     });
   },

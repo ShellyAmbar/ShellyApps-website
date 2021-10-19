@@ -5,8 +5,8 @@ import logo from "../../../../images/me.jpg";
 
 const About = () => {
   useEffect(() => {
-  return  ScrollAnimations();
-  }, []);
+  return ScrollAnimations();
+  },[]);
 
   return (
     <div id="About" className="about-container">

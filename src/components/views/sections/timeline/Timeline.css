@@ -64,10 +64,13 @@
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 10px;
-  letter-spacing: 2px;
   color: var(--secondery);
   opacity: 0;
   transition: opacity 200ms linear;
+  position: absolute;
+  top: -20px;
+  width: "100%";
+  text-align: center;
 }
 
 .timeline-item p {
@@ -155,10 +158,6 @@
   left: -30px;
 }
 
-.timeline-item .date {
-  position: absolute;
-  top: -20px;
-}
 .timeline-body ul {
   display: block;
 }
@@ -186,6 +185,7 @@
     color: var(--primary-white);
     font-size: 10px;
     font-weight: 500;
+    width: 100%;
     margin-bottom: 10px;
 
     color: var(--secondery);

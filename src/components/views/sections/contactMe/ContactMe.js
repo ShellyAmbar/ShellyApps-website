@@ -42,7 +42,7 @@ const ContactMe = () => {
       <h1 className="slide-in from-top">Contact Me</h1>
       <div className="contact-wrap">
         <div className="contact-in slide-in from-left">
-          <h1>Contact Info</h1>
+          <h1>My Info</h1>
           <h2>
             Phone <i class="fas fa-phone"></i>
           </h2>
