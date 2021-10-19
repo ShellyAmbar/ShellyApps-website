@@ -10,7 +10,7 @@ const Timeline = () => {
 
   return (
     <div id="Timeline" className="timeline-container">
-      <h1>Timeline</h1>
+      <h1 className="slide-in from-top">Timeline</h1>
       <div className="timeline-body">
         <ul>
           {timeLineElements.map((item, index) => (

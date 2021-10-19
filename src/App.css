@@ -17,6 +17,20 @@ body {
 }
 .fade-in {
 }
+.from-right {
+  transform: translateX(100%);
+}
+
+.from-left {
+  transform: translateX(-100%);
+}
+.from-top {
+  transform: translateY(-100%);
+}
+
+.from-bottom {
+  transform: translateY(100%);
+}
 
 :root {
   --primary-white: rgb(255, 255, 255);

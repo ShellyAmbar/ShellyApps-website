@@ -6,7 +6,7 @@ import ScrollAnimations from "../../customs/ScrollAnimations";
 
 const Technologies = () => {
   useEffect(() => {
-    ScrollAnimations();
+  return  ScrollAnimations();
   }, []);
   const firstList = () => {
     let list = data.filter(
@@ -30,7 +30,7 @@ const Technologies = () => {
 
   return (
     <div id="Technologies" className="technologies-container">
-      <h1>Technologies</h1>
+      <h1 className="slide-in from-top">Technologies</h1>
 
       <div className="technologies-body">
         <div className="list">

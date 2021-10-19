@@ -4,10 +4,22 @@
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: var(--back);
   overflow: hidden;
+}
+.projects-container h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 5vh;
+  color: rgb(88, 86, 86);
+  margin-bottom: 30px;
+  transition: transform 300ms linear;
+}
+.projects-container h1.appear {
+  transform: translateY(0);
 }
 
 .projects-body {
@@ -46,5 +58,8 @@
   }
   .grid-view {
     display: none;
+  }
+  .projects-container h1 {
+    font-size: 30px;
   }
 }

@@ -9,10 +9,11 @@ const Projects = () => {
   const handleClickCard = (obj) => {};
   return (
     <div id="Projects" className="projects-container">
+      <h1 className="slide-in from-top">Projects</h1>
       <div className="grid-view">
         <GridLIst
           data={data}
-          title={"Projects"}
+        
           handleClickCard={handleClickCard}
         />
       </div>
@@ -20,7 +21,7 @@ const Projects = () => {
       <div className="slider-view">
         <PopUpSlider
           data={data}
-          sliderTitle={"Projects"}
+          
           handleClickCard={handleClickCard}
           className="slider"
         />

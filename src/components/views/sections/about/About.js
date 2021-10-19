@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id="About" className="about-container">
       <div className="about-body">
-        <h1 className="fade-in ">About me</h1>
+        <h1 className="slide-in from-top">About me</h1>
 
         <img alt="" src={logo} className="img-circular fade-in " />
 

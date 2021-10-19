@@ -12,7 +12,7 @@ const ContactMe = () => {
     setaddress("Avivim 12, Ramat Gan");
     setphone("0536200540");
     setemail("ambarshely@gmail.com");
-    ScrollAnimations();
+   return ScrollAnimations();
   }, []);
   const form = useRef();
 
@@ -39,7 +39,7 @@ const ContactMe = () => {
 
   return (
     <div id="ContactMe" className="contact-container">
-      <h1>Contact Me</h1>
+      <h1 className="slide-in from-top">Contact Me</h1>
       <div className="contact-wrap">
         <div className="contact-in slide-in from-left">
           <h1>Contact Info</h1>
