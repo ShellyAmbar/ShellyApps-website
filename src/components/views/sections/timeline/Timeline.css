@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+  transition: transform 500ms linear;
 }
 
 .timeline-item :last-child {
@@ -61,56 +62,18 @@
   margin-bottom: 10px;
   letter-spacing: 2px;
   color: var(--secondery);
-}
-
-.timeline-item h1 {
-  color: var(--primary-white);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.timeline-item p {
-  color: var(--primary-white);
-  font-size: 12px;
-  font-weight: 200;
-  line-height: 20px;
-  text-align: center;
-}
-
-.slide-in {
-  transition: transform 400ms ease-in;
-}
-
-.fade-in {
   opacity: 0;
-  transition: opacity 400ms ease-in;
-}
-.fade-in.appear {
-  opacity: 1;
+  transition: opacity 200ms linear;
 }
 
-/* .timeline-item:nth-child(odd) {
-  transform: translate(-100%);
-}
-.timeline-item:nth-child(even) {
-  transform: translate(100%);
-} */
-
-/* .timeline-item:nth-child(odd).appear,
-.timeline-item:nth-child(even).appear {
-  transform: translateX(0);
-} */
-
-/* @media only screen and (min-width: 768px) 
-{ */
 .timeline-item p {
   color: var(--primary-white);
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 300ms linear;
 }
 
 .timeline-item h1 {
@@ -119,6 +82,15 @@
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+.timeline-item h1.appear,
+.timeline-item p.appear,
+.timeline-item .date.appear {
+  opacity: 1;
 }
 
 .timeline-body::before {
@@ -149,13 +121,13 @@
 .timeline-item:nth-child(odd) {
   float: left;
   clear: right;
-  transform: translate(-100%);
+  transform: translate(-80%);
   border-radius: 20px 0px 20px 20px;
 }
 .timeline-item:nth-child(even) {
   float: right;
   clear: left;
-  transform: translate(100%);
+  transform: translate(80%);
   border-radius: 0px 20px 20px 20px;
 }
 
@@ -199,7 +171,7 @@
 
   .timeline-item p {
     color: var(--primary-white);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 100;
     text-align: center;
   }

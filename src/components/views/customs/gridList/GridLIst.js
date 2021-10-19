@@ -16,7 +16,7 @@ const GridLIst = ({ data, title, handleClickCard }) => {
           <div
             style={{ animationDelay: `${index * 50}ms` }}
             key={index}
-            className="fade-in"
+            className="item fade-in"
           >
             <CardProject obj={obj} onCliclCard={handleClickCard} />
           </div>

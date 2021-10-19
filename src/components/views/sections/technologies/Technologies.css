@@ -33,14 +33,11 @@
   overflow: hidden;
 }
 
-.fade-in {
-  transition: opacity 200ms linear;
-}
-
 .bubble {
   opacity: 0;
   position: relative;
   margin: 10px;
+  transition: opacity 500ms linear;
 }
 
 .bubble.appear {

@@ -5,7 +5,7 @@ import ScrollAnimations from "../../customs/ScrollAnimations";
 
 const Timeline = () => {
   useEffect(() => {
-    ScrollAnimations();
+  return  ScrollAnimations();
   }, []);
 
   return (
