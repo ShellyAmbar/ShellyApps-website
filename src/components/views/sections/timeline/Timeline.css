@@ -184,8 +184,8 @@
   }
   .timeline-item .date {
     color: var(--primary-white);
-    font-size: 8px;
-    font-weight: 200;
+    font-size: 10px;
+    font-weight: 500;
     margin-bottom: 10px;
 
     color: var(--secondery);

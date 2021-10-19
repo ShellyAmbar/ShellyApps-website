@@ -5,7 +5,7 @@ const timeLineElements = [
     company: "HIT",
     location: "Holon",
     description: "",
-    date: "1/10/2016 - 1/10/2019",
+    date: "1/10/16 - 1/10/19",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const timeLineElements = [
     company: "Beatman",
     location: "Tel Aviv",
     description: "Developing Andoid apps with Java in Android studio",
-    date: "20/11/2019 - 17/12/2020",
+    date: "20/11/19 - 17/12/20",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const timeLineElements = [
     location: "Tel Aviv",
     description:
       "Developing Andoid & IOS apps with Java in Android studio and Swift in Xcode",
-    date: "20/12/2020 - 10/07/2021",
+    date: "20/12/20 - 10/07/21",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const timeLineElements = [
     location: "Tel Aviv",
     description:
       "Developing React web applications & React native apps & Node Js server",
-    date: "1/1/2019 - 10/07/2021",
+    date: "1/1/19 - 10/07/21",
   },
 ];
 
