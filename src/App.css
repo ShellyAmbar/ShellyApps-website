@@ -15,6 +15,13 @@ body {
   height: "100vh";
 }
 
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 .slide-in {
 }
 .fade-in {
