@@ -191,6 +191,9 @@
 }
 
 @media (max-width: 768px) {
+  .contact-container {
+    height: 150vh;
+  }
   .contact-in h2 {
     font-size: 15px;
   }

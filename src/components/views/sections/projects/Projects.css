@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 768px) {
+  .projects-container {
+    height: 100vh;
+  }
   .slider-view {
     display: flex;
   }

@@ -48,6 +48,9 @@
 }
 
 @media (max-width: 768px) {
+  .technologies-container {
+    height: 70vh;
+  }
   .bubble {
     margin: 1px;
   }

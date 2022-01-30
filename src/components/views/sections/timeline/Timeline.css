@@ -164,6 +164,9 @@
 /* } */
 
 @media (max-width: 768px) {
+  .timeline-container {
+    height: 100vh;
+  }
   .timeline-container h1 {
     font-size: 30px;
   }
