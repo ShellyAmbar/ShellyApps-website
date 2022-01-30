@@ -5,7 +5,7 @@ import "./GridList.scss";
 
 const GridLIst = ({ data, handleClickCard }) => {
   useEffect(() => {
-   return ScrollAnimations();
+   ScrollAnimations();
   }, []);
 
   return (
