@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import CardProject from "../cardProject/CardProject";
-import ScrollAnimations from "../ScrollAnimations";
+
 import "./GridList.scss";
 
 const GridLIst = ({ data, handleClickCard }) => {
-  useEffect(() => {
-   ScrollAnimations();
-  }, []);
 
   return (
     <div className="grid-container ">
