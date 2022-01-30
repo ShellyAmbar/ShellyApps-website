@@ -28,18 +28,18 @@ body {
 .fade-in {
 }
 .from-right {
-  transform: translateX(90%);
+  transform: translateX(80%);
 }
 
 .from-left {
-  transform: translateX(-90%);
+  transform: translateX(-80%);
 }
 .from-top {
-  transform: translateY(-90%);
+  transform: translateY(-80%);
 }
 
 .from-bottom {
-  transform: translateY(90%);
+  transform: translateY(80%);
 }
 
 :root {

@@ -87,6 +87,14 @@
 }
 
 @media (max-width: 768px) {
+  .about-body p:nth-child(even) {
+    color: var(--secondery);
+    transform: translateX(50%);
+  }
+  .about-body p:nth-child(odd) {
+    color: var(--primary-white);
+    transform: translateX(-50%);
+  }
   .about-container {
     height: 120px;
   }

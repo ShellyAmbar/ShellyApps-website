@@ -164,6 +164,19 @@
 /* } */
 
 @media (max-width: 768px) {
+  .timeline-item:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translate(-50%);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline-item:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translate(50%);
+    border-radius: 0px 20px 20px 20px;
+  }
+
   .timeline-container {
     padding-top: 100px;
     height: 120vh;
