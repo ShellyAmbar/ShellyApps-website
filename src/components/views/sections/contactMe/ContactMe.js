@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./ContactMe.css";
 import emailjs from "emailjs-com";
-import ScrollAnimations from "../../customs/ScrollAnimations";
+
 
 const ContactMe = () => {
   const [phone, setphone] = useState("");
@@ -12,7 +12,7 @@ const ContactMe = () => {
     setaddress("Avivim 12, Ramat Gan");
     setphone("0536200540");
     setemail("ambarshely@gmail.com");
-   return ScrollAnimations();
+   
   }, []);
   const form = useRef();
 

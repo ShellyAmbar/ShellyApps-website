@@ -23,6 +23,10 @@ const ScrollAnimations = () => {
   },
   appearOptions);
 
+  // appearOnScroll.observe(sliders);
+  // appearOnScroll.observe(faders);
+
+
   faders.forEach((fader) => {
     appearOnScroll.observe(fader);
   });

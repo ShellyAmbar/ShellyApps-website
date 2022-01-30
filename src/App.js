@@ -8,6 +8,7 @@ import Technologies from "./components/views/sections/technologies/Technologies"
 import Timeline from "./components/views/sections/timeline/Timeline";
 
 function App() {
+  
   return (
     <div className="app-container">
       <Navbar />

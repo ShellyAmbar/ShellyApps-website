@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Timeline.css";
 import { timeLineElements } from "./database";
-import ScrollAnimations from "../../customs/ScrollAnimations";
+
 
 const Timeline = () => {
-  useEffect(() => {
-  return  ScrollAnimations();
-  }, []);
 
   return (
     <div id="Timeline" className="timeline-container">

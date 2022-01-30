@@ -1,12 +1,8 @@
-import React, { useEffect } from "react";
-import ScrollAnimations from "../../customs/ScrollAnimations";
+import React from "react";
 import "./About.css";
 import logo from "../../../../images/me.jpg";
 
 const About = () => {
-  useEffect(() => {
-  return ScrollAnimations();
-  },[]);
 
   return (
     <div id="About" className="about-container">
