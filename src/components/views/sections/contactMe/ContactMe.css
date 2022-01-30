@@ -1,6 +1,7 @@
 .contact-container {
   min-height: 100vh;
   width: 100%;
+  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -8,7 +9,6 @@
   align-items: center;
   justify-content: center;
   background-color: var(--back);
-  overflow: hidden;
 }
 
 .contact-container h1 {
