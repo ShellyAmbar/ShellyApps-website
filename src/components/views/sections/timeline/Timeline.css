@@ -165,7 +165,8 @@
 
 @media (max-width: 768px) {
   .timeline-container {
-    height: 100vh;
+    padding-top: 100px;
+    height: 120vh;
   }
   .timeline-container h1 {
     font-size: 30px;
