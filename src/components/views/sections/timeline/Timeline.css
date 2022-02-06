@@ -1,8 +1,8 @@
 .timeline-container {
   min-height: auto;
   width: 100%;
-  height: 100%;
-  padding-top: 50px;
+  height: auto;
+  padding-top: 100px;
   padding-bottom: 100px;
   align-items: center;
   justify-content: center;
@@ -181,7 +181,7 @@
   }
 
   .timeline-container {
-    padding-top: 100px;
+    padding-top: 50px;
     height: auto;
   }
   .timeline-container h1 {

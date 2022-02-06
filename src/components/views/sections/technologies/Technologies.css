@@ -1,8 +1,8 @@
 .technologies-container {
-  height: 100%;
+  height: auto;
   width: 100%;
   min-height: auto;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -51,6 +51,7 @@
 
 @media (max-width: 768px) {
   .technologies-container {
+    padding-top: 50px;
     height: auto;
   }
   .bubble {
