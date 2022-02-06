@@ -14,6 +14,7 @@ const Timeline = () => {
             <li id={index} className="timeline-item slide-in">
               <h2 className="date fade-in">{item.date}</h2>
               <h1 className="fade-in">{item.title}</h1>
+              <p className="fade-in">{item.company}</p>
               <p className="fade-in">{item.description}</p>
             </li>
           ))}

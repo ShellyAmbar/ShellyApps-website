@@ -24,14 +24,24 @@ const timeLineElements = [
       "Developing Andoid & IOS apps with Java in Android studio and Swift in Xcode",
     date: "20/12/20 - 10/07/21",
   },
+  
   {
     id: 4,
-    title: "Developing & Learning",
-    company: "Matrix Medika",
+    title: "Freelancer React Native devloper",
+    company: "Ideo Digital",
     location: "Tel Aviv",
     description:
-      "Developing React web applications & React native apps & Node Js server",
-    date: "1/1/19 - 10/07/21",
+      "Developing React Native applications for Aphenix company.",
+    date: "1/10/19 - 20/1/22",
+  },
+  {
+    id: 5,
+    title: "Freelancer",
+    company: "None",
+    location: "Ramat Gan",
+    description:
+      "Developing fullstack appsq websites with React& React native & Node Js.",
+    date: "1/1/18 - Today",
   },
 ];
 
