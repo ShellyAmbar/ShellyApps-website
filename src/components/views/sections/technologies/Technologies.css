@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--back);
+  overflow: hidden;
 }
 .technologies-container h1 {
   width: 100%;
@@ -49,7 +50,7 @@
 
 @media (max-width: 768px) {
   .technologies-container {
-    height: 70vh;
+    height: auto;
   }
   .bubble {
     margin: 1px;

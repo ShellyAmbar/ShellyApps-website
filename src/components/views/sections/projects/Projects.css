@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--back);
+  overflow: hidden;
 }
 .projects-container h1 {
   width: 100%;
@@ -54,7 +55,7 @@
 
 @media (max-width: 768px) {
   .projects-container {
-    height: 120vh;
+    height: auto;
   }
   .slider-view {
     display: flex;

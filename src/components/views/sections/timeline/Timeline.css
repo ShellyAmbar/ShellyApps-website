@@ -1,12 +1,15 @@
 .timeline-container {
-  min-height: 100vh;
+  min-height: auto;
   width: 100%;
   height: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
   align-items: center;
   justify-content: center;
   background-color: var(--back);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .timeline-container h1 {
   width: 100%;
@@ -179,7 +182,7 @@
 
   .timeline-container {
     padding-top: 100px;
-    height: 120vh;
+    height: auto;
   }
   .timeline-container h1 {
     font-size: 30px;

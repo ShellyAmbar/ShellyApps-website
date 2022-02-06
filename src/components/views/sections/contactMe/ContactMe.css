@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--back);
+  overflow: hidden;
 }
 
 .contact-container h1 {
@@ -192,7 +193,7 @@
 
 @media (max-width: 768px) {
   .contact-container {
-    height: 200vh;
+    height: auto;
   }
   .contact-in h2 {
     font-size: 15px;
