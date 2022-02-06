@@ -1,12 +1,17 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./ContactMe.css";
 import emailjs from "emailjs-com";
+import ScrollAnimations from "../../customs/ScrollAnimations";
 
 
 const ContactMe = () => {
   const [phone, setphone] = useState("");
   const [email, setemail] = useState("");
   const [address, setaddress] = useState("");
+
+  useEffect(() => {
+    ScrollAnimations();
+   }, []);
 
   useEffect(() => {
     setaddress("Ramat Gan");

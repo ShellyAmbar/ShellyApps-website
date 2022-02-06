@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Timeline.css";
 import { timeLineElements } from "./database";
+import ScrollAnimations from "../../customs/ScrollAnimations";
 
 
 const Timeline = () => {
-
+  useEffect(() => {
+    ScrollAnimations();
+   }, []);
   return (
     <div id="Timeline" className="timeline-container">
       <h1 className="slide-in from-top">Timeline</h1>

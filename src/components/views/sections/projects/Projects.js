@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./Projects.css";
 import { data } from "./data";
 import PopUpSlider from "../../customs/PopUpSlider/PopUpSlider";
 import GridLIst from "../../customs/gridList/GridLIst";
+import ScrollAnimations from "../../customs/ScrollAnimations";
 
 const Projects = () => {
+  useEffect(() => {
+    ScrollAnimations();
+   }, []);
   const handleClickCard = (obj) => {};
   return (
     <div id="Projects" className="projects-container">

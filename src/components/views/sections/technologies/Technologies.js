@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Technologies.css";
 import data from "./data";
 import Bubble from "../../customs/bubble/Bubble";
+import ScrollAnimations from "../../customs/ScrollAnimations";
 
 
 const Technologies = () => {
- 
+  useEffect(() => {
+    ScrollAnimations();
+   }, []);
   const firstList = () => {
     let list = data.filter(
       (obj, index) => index >= 0 && index < data.length / 3
