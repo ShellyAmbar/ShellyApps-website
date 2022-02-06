@@ -16,8 +16,16 @@ const About = () => {
           Gan, Israel.
         </p>
         <p className="slide-in">
-          I Graduated BS.c in Computer Science from HIT in 2019 and for the last 2 years I worked in the industry as a
-          mobile apps developer (Android with Java and IOS with Swift) and as a freelancer Fullstack developer with React - React Native - node JS.
+          I Graduated BS.c in Computer Science from HIT in 2019,
+        </p>
+        <p className="slide-in">
+         and for the last 2 years I worked in the industry as a  mobile apps developer
+        </p>
+        <p className="slide-in">
+        (Android with Java and IOS with Swift)
+        </p>
+        <p className="slide-in">
+        and as a freelancer Fullstack developer with React - React Native - node JS.
         </p>
         <p className="slide-in">
           I have over 60 projects in my Github page with various types of
