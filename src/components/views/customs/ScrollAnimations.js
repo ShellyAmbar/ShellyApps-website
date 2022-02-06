@@ -13,7 +13,7 @@ const ScrollAnimations = () => {
   ) => {
     enteries.forEach((entry) => {
       if (!entry.isIntersecting) {
-        entry.target.classList.remove("appear");
+       // entry.target.classList.remove("appear");
        
       } else {
         entry.target.classList.add("appear");
