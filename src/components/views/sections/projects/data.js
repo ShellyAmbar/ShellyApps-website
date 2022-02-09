@@ -82,6 +82,13 @@ const data = [
     siteLink: "",
     description: "Video dating app with socket.io",
   },
+  {
+    title: "A Unity Platformer 2D game in C#",
+    youtubeLink: "https://www.youtube.com/watch?v=vAbVrsp1Zmc",
+    gitLink: "https://github.com/ShellyAmbar/Platformer2D",
+    siteLink: "",
+    description: "A Unity 2D game in C#, using URP modules, Player controller with touch for mobile, 2D physics and OOP.",
+  },
 ];
 
 export { data };
