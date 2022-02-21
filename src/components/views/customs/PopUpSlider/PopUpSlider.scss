@@ -5,7 +5,8 @@
 
 .slick-slider {
   .slick-dots {
-    bottom: -4vw;
+    bottom: -30px;
+
     li {
       button {
         width: 15px;
@@ -69,5 +70,20 @@
     color: #fff;
     outline: none;
     background: #fff;
+  }
+}
+@media (max-width: 414px) {
+  .slick-slider .slick-dots {
+    bottom: -40px;
+
+    li {
+      margin: 2px;
+      button {
+        width: 10px;
+        height: 10px;
+        border: 1px solid rgb(131, 127, 127);
+        border-radius: 10px;
+      }
+    }
   }
 }
