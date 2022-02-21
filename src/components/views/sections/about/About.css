@@ -72,11 +72,12 @@
   font-size: 5vh;
   color: rgb(88, 86, 86);
   margin-bottom: 30px;
+  opacity: 0;
   transition: transform 300ms linear;
 }
 
 .about-body h1.appear {
-  transform: translateY(0);
+  opacity: 1;
 }
 .row {
   width: 100%;
