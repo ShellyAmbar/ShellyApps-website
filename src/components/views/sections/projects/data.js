@@ -70,7 +70,8 @@ const data = [
   },
   {
     title: "Endless Runner - Unity Game",
-    youtubeLink: "https://www.youtube.com/watch?v=v6gVGZyeoXY&ab_channel=ShellyAmbar",
+    youtubeLink:
+      "https://www.youtube.com/watch?v=v6gVGZyeoXY&ab_channel=ShellyAmbar",
     gitLink: "https://github.com/ShellyAmbar/EndlessRunner",
     siteLink: "",
     description: "",
@@ -78,7 +79,8 @@ const data = [
   {
     title: "DateRoulatte - FullStack React & Node js app using Socket.io",
     youtubeLink: "https://www.youtube.com/watch?v=UJJBVhlO6-Y",
-    gitLink: "https://github.com/ShellyAmbar/DateRoulatte---React-Node-JS-Socket.io",
+    gitLink:
+      "https://github.com/ShellyAmbar/DateRoulatte---React-Node-JS-Socket.io",
     siteLink: "",
     description: "Video dating app with socket.io",
   },
@@ -87,8 +89,17 @@ const data = [
     youtubeLink: "https://www.youtube.com/watch?v=vAbVrsp1Zmc",
     gitLink: "https://github.com/ShellyAmbar/Platformer2D",
     siteLink: "",
-    description: "A Unity 2D game in C#, using URP modules, Player controller with touch for mobile, 2D physics and OOP.",
+    description:
+      "A Unity 2D game in C#, using URP modules, Player controller with touch for mobile, 2D physics and OOP.",
+  },
+  {
+    title: "A 3D game in Unity with C#",
+    youtubeLink: "https://www.youtube.com/watch?v=M3WWzg9nxWc",
+    gitLink: "",
+    siteLink: "",
+    description:
+      "A 3D game in Unity with C#, using URP modules, Shaders, Player controller with touch for mobile, 3D physics and OOP.",
   },
 ];
 
-export { data };
+export {data};
