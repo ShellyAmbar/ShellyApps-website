@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import "./ContactMe.css";
 import emailjs from "emailjs-com";
 import ScrollAnimations from "../../customs/ScrollAnimations";
-
 
 const ContactMe = () => {
   const [phone, setphone] = useState("");
@@ -11,13 +10,12 @@ const ContactMe = () => {
 
   useEffect(() => {
     ScrollAnimations();
-   }, []);
+  }, []);
 
   useEffect(() => {
     setaddress("Ramat Gan");
     setphone("0536200540");
     setemail("ambarshely@gmail.com");
-   
   }, []);
   const form = useRef();
 
@@ -112,24 +110,28 @@ const ContactMe = () => {
           <h1>Send a Message</h1>
           <form ref={form} onSubmit={sendEmail}>
             <input
+              required={true}
               name="from_name"
               type="text"
               placeholder="Full Name"
               className="contact-in-input"
             />
             <input
+              required={true}
               name="email"
-              type="text"
+              type="email"
               placeholder="Email"
               className="contact-in-input"
             />
             <input
+              required={true}
               name="subject"
               type="text"
               placeholder="Subject"
               className="contact-in-input"
             />
             <textarea
+              required={true}
               name="message"
               placeholder="Message"
               className="contact-in-textarea"
