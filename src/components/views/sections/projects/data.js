@@ -68,14 +68,7 @@ const data = [
     siteLink: "",
     description: "",
   },
-  {
-    title: "Endless Runner - Unity Game",
-    youtubeLink:
-      "https://www.youtube.com/watch?v=v6gVGZyeoXY&ab_channel=ShellyAmbar",
-    gitLink: "https://github.com/ShellyAmbar/EndlessRunner",
-    siteLink: "",
-    description: "",
-  },
+
   {
     title: "DateRoulatte - FullStack React & Node js app using Socket.io",
     youtubeLink: "https://www.youtube.com/watch?v=UJJBVhlO6-Y",
