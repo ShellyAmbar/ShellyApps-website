@@ -80,9 +80,10 @@ const data = [
 
   {
     title: "A 3D game in Unity with C#",
-    youtubeLink: "https://www.youtube.com/watch?v=QacqIdxk5x0",
+    youtubeLink: "https://www.youtube.com/watch?v=LSgTI-n7Dbc&t=7s",
     gitLink: "",
-    siteLink: "",
+    siteLink:
+      "https://play.google.com/store/apps/details?id=com.ShellyApps.HauntedParadise",
     description:
       "A 3D game in Unity with C#, using URP modules, Shaders, Player controller with touch for mobile, 3D physics and OOP.",
   },
