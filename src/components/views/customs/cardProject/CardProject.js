@@ -6,7 +6,10 @@ const CardProject = ({obj}) => {
   const [isPlaying, setisPlaying] = useState(false);
   return (
     <div className="card-wrapper-slider">
-      <div className="card-slider-absolute">
+      {/* <div className="card-slider-absolute">
+       
+      </div> */}
+      <div className="card-slider">
         <ReactPlayer
           onClickPreview={(event) => {
             event.preventDefault();
@@ -28,8 +31,6 @@ const CardProject = ({obj}) => {
             setisPlaying(true);
           }}
         />
-      </div>
-      <div className="card-slider">
         <div className="card-image-slider"></div>
         <ul className="social-icons-slider">
           <li>
