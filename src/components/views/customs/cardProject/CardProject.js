@@ -31,6 +31,7 @@ const CardProject = ({obj}) => {
             setisPlaying(true);
           }}
         />
+        <div className="card-slider-absolute"></div>
         <div className="card-image-slider"></div>
         <ul className="social-icons-slider">
           <li>
