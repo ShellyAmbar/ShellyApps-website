@@ -6,22 +6,31 @@ const CardProject = ({obj}) => {
   const [isPlaying, setisPlaying] = useState(false);
   return (
     <div className="card-wrapper-slider">
+      <div className="card-slider-absolute">
+        <ReactPlayer
+          onClickPreview={(event) => {
+            event.preventDefault();
+            event.stoppropagation();
+          }}
+          onClick={(event) => {
+            event.preventDefault();
+            event.stoppropagation();
+          }}
+          width="100%"
+          height="100%"
+          className="video-player"
+          url={obj.youtubeLink}
+          playing={isPlaying}
+          onPause={() => {
+            setisPlaying(false);
+          }}
+          onPlay={() => {
+            setisPlaying(true);
+          }}
+        />
+      </div>
       <div className="card-slider">
-        <div className="card-image-slider">
-          <ReactPlayer
-            width="100%"
-            height="100%"
-            className="video-player"
-            url={obj.youtubeLink}
-            playing={isPlaying}
-            onPause={() => {
-              setisPlaying(false);
-            }}
-            onPlay={() => {
-              setisPlaying(true);
-            }}
-          />
-        </div>
+        <div className="card-image-slider"></div>
         <ul className="social-icons-slider">
           <li>
             <button
@@ -39,14 +48,11 @@ const CardProject = ({obj}) => {
               <i class="fab fa-github"></i>
             </button>
           </li>
-          <li>
-            <button
-              className="icon-btn"
-              onClick={() => window.open(obj.siteLink, "_blank")}
-            >
+          {/* <li>
+            <button className="icon-btn" onClick={() => {}}>
               <i class="fab fa-staylinked"></i>
             </button>
-          </li>
+          </li> */}
         </ul>
 
         <div className="details-slider">
