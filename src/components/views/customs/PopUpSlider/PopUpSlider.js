@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./PopUpSlider.scss";
 import CardProject from "../cardProject/CardProject";
 
-function PopUpSlider({ data, handleClickCard }) {
+function PopUpSlider({data}) {
   let settings = {
     dots: true,
     infinite: true,
@@ -19,7 +19,7 @@ function PopUpSlider({ data, handleClickCard }) {
     <div className="slider">
       <Slider {...settings}>
         {data.map((obj, index) => (
-          <CardProject key={index} obj={obj} onCliclCard={handleClickCard} />
+          <CardProject key={index} obj={obj} />
         ))}
       </Slider>
     </div>

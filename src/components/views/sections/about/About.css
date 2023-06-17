@@ -62,6 +62,10 @@
   margin-top: 20px;
 }
 
+.start {
+  text-align: start;
+}
+
 .about-body p:nth-last-child() {
   margin-bottom: 50px;
 }

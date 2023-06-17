@@ -3,18 +3,17 @@ import CardProject from "../cardProject/CardProject";
 
 import "./GridList.scss";
 
-const GridLIst = ({ data, handleClickCard }) => {
-
+const GridLIst = ({data}) => {
   return (
     <div className="grid-container ">
       <div className="grid-content">
         {data.map((obj, index) => (
           <div
-            style={{ animationDelay: `${index * 50}ms` }}
+            style={{animationDelay: `${index * 50}ms`}}
             key={index}
             className="item fade-in"
           >
-            <CardProject obj={obj} onCliclCard={handleClickCard} />
+            <CardProject obj={obj} />
           </div>
         ))}
       </div>

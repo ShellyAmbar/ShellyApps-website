@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./CardProject.scss";
 import ReactPlayer from "react-player/youtube";
 
-const CardProject = ({ obj, onCliclCard }) => {
+const CardProject = ({obj}) => {
   const [isPlaying, setisPlaying] = useState(false);
   return (
     <div className="card-wrapper-slider">

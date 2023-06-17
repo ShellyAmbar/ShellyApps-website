@@ -21,15 +21,17 @@ const About = () => {
         <p className="about-section fade-in">
           I Graduated BS.c in Computer Science from HIT in 2019,
         </p>
-        <p className="about-section fade-in">
-          and for the last 2 years I worked in the industry as a mobile apps
-          developer (Android with Java and IOS with Swift)
+        <p className="about-section  fade-in">
+          For the last 3 years I have worked in the industry as a Mobile Apps
+          developer with 3 main platforms:
         </p>
 
-        <p className="about-section fade-in">
-          and as a freelancer Fullstack developer with React - React Native -
-          node JS.
+        <p className="about-section start fade-in">
+          <br /> - Native Android with JAVA
+          <br /> - Native IOS with Swift
+          <br /> - React Native with typescript
         </p>
+
         <p className="about-section fade-in">
           I have over 60 projects in my Github page with various types of
           technologies.
