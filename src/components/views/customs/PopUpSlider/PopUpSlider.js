@@ -13,6 +13,8 @@ function PopUpSlider({data}) {
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: "linear",
+
+    draggable: false,
   };
 
   return (
