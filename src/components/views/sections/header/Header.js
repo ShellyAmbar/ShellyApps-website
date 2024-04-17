@@ -1,51 +1,27 @@
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import "./Header.css";
-import Typed from "react-typed";
-import Particles from "react-particles-js";
-import { Link } from "react-scroll";
+
+import {Link} from "react-scroll";
+import {gsap} from "gsap";
+
+import {ScrollTrigger} from "gsap/ScrollTrigger";
+import video from "../../../../videos/1.mp4";
+import logo from "../../../../images/me.jpg";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Header = () => {
+  const ref = useRef(null);
+  useEffect(() => {}, []);
+
   return (
     <div id="Header" className="header-wraper">
+      <video className="video" src={video} autoPlay loop muted />
       <div className="main-info">
-        <Particles
-          className="particles"
-          params={{
-            particles: {
-              number: {
-                value: 30,
-                density: {
-                  enable: true,
-                },
-              },
-              shape: {
-                type: "circle",
-                stroke: {
-                  width: 8,
-                  color: "rgb(255, 24, 243)",
-                },
-              },
-            },
-          }}
-        />
-        <h1>Web and Mobile Apps development</h1>
-        <Typed
-          className="typed-text"
-          strings={[
-            "Web Design",
-            "React web applications",
-            "Android apps",
-            "IOS Apps",
-            "React Native Apps",
-            "Node js server",
-            "MongoDB",
-            "SQL",
-            "Firebase",
-          ]}
-          typeSpeed={40}
-          backSpeed={60}
-          loop
-        />
+        <img alt="" src={logo} className="img-circular fade-in " />
+        <h2 className="title">Shelly Ambar</h2>
+        <h1>Mobile Apps and web developer</h1>
+
         <Link
           activeClass="active"
           to="ContactMe"

@@ -24,25 +24,25 @@ const timeLineElements = [
       "Developing Andoid & IOS apps with Java in Android studio and Swift in Xcode",
     date: "20/12/20 - 10/07/21",
   },
-  
+
   {
     id: 4,
-    title: "Freelancer React Native devloper",
-    company: "Ideo Digital",
+    title: "React Native devloper",
+    company: "Velo",
     location: "Tel Aviv",
     description:
-      "Developing React Native applications for Aphenix company.",
-    date: "1/10/19 - 20/1/22",
+      "Developing with React Native cli, using Typescript, react-redux.",
+    date: "1/1/2022 - 1/7/2022",
   },
   {
     id: 5,
-    title: "Freelancer",
-    company: "None",
-    location: "Ramat Gan",
+    title: "React Native devloper",
+    company: "My Genes",
+    location: "Tel Aviv",
     description:
-      "Developing fullstack appsq websites with React& React native & Node Js.",
-    date: "1/1/18 - Today",
+      "Developing with React Native in expo, using Typescript, mobx, EAS",
+    date: "1/9/2022 - 1/11/2023",
   },
 ];
 
-export { timeLineElements };
+export {timeLineElements};

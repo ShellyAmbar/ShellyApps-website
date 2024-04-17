@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import "./About.css";
-import logo from "../../../../images/me.jpg";
+
 import ScrollAnimations from "../../customs/ScrollAnimations";
 
 const About = () => {
@@ -10,10 +10,6 @@ const About = () => {
   return (
     <div id="About" className="about-container">
       <div className="about-body">
-        <h1 className="slide-in from-top">About me</h1>
-
-        <img alt="" src={logo} className="img-circular fade-in " />
-
         <p className="about-section fade-in">
           Welcome! I'm Shelly Ambar, a Software developer from Ramat Gan,
           Israel.
