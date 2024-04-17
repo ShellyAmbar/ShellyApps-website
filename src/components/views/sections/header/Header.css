@@ -16,21 +16,18 @@
 .img-circular {
   align-self: center;
   border-radius: 1000px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin-bottom: 50px;
-  opacity: 0;
-  transition: opacity 500ms linear;
 }
 
 .img-circular.appear {
-  opacity: 1;
 }
 
 .main-info {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 
   position: absolute;
@@ -38,20 +35,29 @@
   left: 0;
   right: 0;
   bottom: 0;
+  padding-right: 10%;
+  padding-left: 10%;
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-info h1 {
   text-align: center;
   color: var(--secondery) !important;
   font-weight: 800;
   font-size: 50px;
-  background-color: var(--text-back) !important;
+
   padding: 10px;
   text-transform: uppercase;
 }
 .title {
   width: 100%;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   color: white;
   margin-bottom: 100px;
 }
@@ -97,6 +103,9 @@
   .img-circular {
     width: 200px;
     height: 200px;
+  }
+  .title {
+    font-size: 3rem !important;
   }
 
   .main-info h1 {
