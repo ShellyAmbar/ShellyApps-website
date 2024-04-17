@@ -11,14 +11,10 @@ const About = () => {
     <div id="About" className="about-container">
       <div className="about-body">
         <p className="about-section fade-in">
-          Welcome! I'm Shelly Ambar, a Software developer from Ramat Gan,
-          Israel.
-        </p>
-        <p className="about-section fade-in">
           I Graduated BS.c in Computer Science from HIT in 2019,
         </p>
         <p className="about-section  fade-in">
-          For the last 3 years I have worked in the industry as a Mobile Apps
+          For the last 4 years I have worked in the industry as a Mobile Apps
           developer with 3 main platforms:
         </p>
 
