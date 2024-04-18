@@ -19,8 +19,6 @@ const Header = () => {
         <div className="content">
           <h2 className="title">Hi! I'm Shelly!</h2>
           <h1>A Mobile Apps and web developer</h1>
-          <TypingAnimation />
-
           <Link
             activeClass="active"
             to="ContactMe"
@@ -31,6 +29,7 @@ const Header = () => {
           >
             Contact Me
           </Link>
+          <TypingAnimation />
         </div>
         <img alt="" src={logo} className="img-circular fade-in " />
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import {TypeAnimation} from "react-type-animation";
+import "./typing-animation.css";
 
 const TypingAnimation = () => {
   return (
@@ -20,9 +21,10 @@ const TypingAnimation = () => {
         "Mobx",
         1000,
       ]}
+      style={{color: "#FFFF"}}
       wrapper="span"
       speed={50}
-      style={{fontSize: "3em", display: "inline-block", color: "white"}}
+      className="text"
       repeat={Infinity}
     />
   );
