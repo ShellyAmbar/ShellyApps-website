@@ -13,6 +13,11 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .img-circular {
   align-self: center;
@@ -36,8 +41,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
   z-index: 1;
 }
 .content {
@@ -104,8 +109,8 @@
 
 @media (max-width: 768px) {
   .img-circular {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   .title {
     font-size: 30px;
