@@ -14,22 +14,24 @@ gsap.registerPlugin(ScrollTrigger);
 const Header = () => {
   const ref = useRef(null);
   useEffect(() => {
-    ref?.current?.play();
-  }, []);
+    if (ref?.current !== null) {
+      ref?.current?.play();
+    }
+  }, [ref?.current]);
 
   return (
     <div id="Header" className="header-wraper">
       <video
         id="myVideo"
         className="video"
-        src={video}
         autoPlay={true}
         playsInLine={true}
         loop
         muted
         ref={ref}
-        type="video/mp4"
-      />
+      >
+        <source src={video} type="video/mp4" />
+      </video>
       <div className="main-info">
         <div className="content">
           <h2 className="title">Hi! I'm Shelly!</h2>
