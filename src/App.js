@@ -1,6 +1,6 @@
-import { useEffect } from "react";
+import {useEffect} from "react";
 import "./App.css";
-import { Navbar } from "./components/views/customs/navbar/Navbar";
+import {Navbar} from "./components/views/customs/navbar/Navbar";
 import ScrollAnimations from "./components/views/customs/ScrollAnimations";
 import About from "./components/views/sections/about/About";
 import ContactMe from "./components/views/sections/contactMe/ContactMe";
@@ -8,11 +8,12 @@ import Header from "./components/views/sections/header/Header";
 import Projects from "./components/views/sections/projects/Projects";
 import Technologies from "./components/views/sections/technologies/Technologies";
 import Timeline from "./components/views/sections/timeline/Timeline";
+import Libraries from "./components/views/sections/libraries/libraries";
 
 function App() {
   useEffect(() => {
     ScrollAnimations();
-   }, []);
+  }, []);
   return (
     <div className="app-container">
       <Navbar />
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Timeline />
       <Projects />
+      <Libraries />
       <Technologies />
       <ContactMe />
     </div>

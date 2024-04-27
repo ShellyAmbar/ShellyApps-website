@@ -1,0 +1,60 @@
+.libraries-container {
+  min-height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--back);
+
+  overflow-x: "auto";
+}
+.libraries-container h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 5vh;
+  color: rgb(88, 86, 86);
+  margin-bottom: 30px;
+  transition: transform 300ms linear;
+}
+
+.slider {
+  display: grid;
+  place-items: center;
+  width: 70%;
+  position: relative;
+  margin: auto;
+  height: 250px;
+  overflow-x: "auto";
+}
+.slide-track {
+  display: flex;
+  width: calc(250px * 18);
+  align-items: center;
+  padding: 15px;
+  overflow-x: "auto";
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.libraries-container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.card {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
