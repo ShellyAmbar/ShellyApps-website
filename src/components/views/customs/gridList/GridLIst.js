@@ -10,7 +10,7 @@ const GridLIst = ({data}) => {
         {data.map((obj, index) => (
           <div
             style={{animationDelay: `${index * 50}ms`}}
-            key={index}
+            key={index?.toString()}
             className="item fade-in"
           >
             <CardProject obj={obj} />

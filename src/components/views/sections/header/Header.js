@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from "react";
+import React, {useRef, useEffect, useState} from "react";
 import "./Header.css";
 
 import {Link} from "react-scroll";
@@ -8,11 +8,17 @@ import {ScrollTrigger} from "gsap/ScrollTrigger";
 import video from "../../../../videos/1.mp4";
 import logo from "../../../../images/me.jpg";
 import TypingAnimation from "../../customs/typing-animation/typing-animation";
-
+import sound from "../../../../sounds/1.mp3";
+import useSound from "use-sound";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faVolumeUp, faVolumeMute} from "@fortawesome/free-solid-svg-icons";
 gsap.registerPlugin(ScrollTrigger);
 
 const Header = () => {
   const ref = useRef(null);
+
+  const [play, {stop}] = useSound(sound, {volume: 1, interrupt: true});
+  const [isPlayingSound, setisPlayingSound] = useState(false);
   useEffect(() => {
     if (ref?.current !== null) {
       ref?.current?.play();
@@ -50,6 +56,28 @@ const Header = () => {
         </div>
         <img alt="" src={logo} className="img-circular fade-in " />
       </div>
+      <button
+        style={{
+          position: "absolute",
+          top: 10,
+          left: 10,
+          zIndex: 2,
+          backgroundColor: "transparent",
+        }}
+        onClick={() => {
+          setisPlayingSound(!isPlayingSound);
+          if (isPlayingSound) {
+            stop();
+          } else {
+            play();
+          }
+        }}
+      >
+        <FontAwesomeIcon
+          icon={isPlayingSound ? faVolumeUp : faVolumeMute}
+          style={{color: "white"}}
+        />
+      </button>
     </div>
   );
 };

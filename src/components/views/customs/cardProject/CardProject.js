@@ -15,6 +15,7 @@ const CardProject = ({obj}) => {
             event.preventDefault();
             event.stoppropagation();
           }}
+          muted
           onClick={(event) => {
             event.preventDefault();
             event.stoppropagation();
