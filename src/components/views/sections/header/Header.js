@@ -19,7 +19,17 @@ const Header = () => {
 
   return (
     <div id="Header" className="header-wraper">
-      <video className="video" src={video} autoPlay loop muted ref={ref} />
+      <video
+        id="myVideo"
+        className="video"
+        src={video}
+        autoPlay
+        playsInLine
+        loop
+        muted
+        ref={ref}
+        type="video/mp4"
+      />
       <div className="main-info">
         <div className="content">
           <h2 className="title">Hi! I'm Shelly!</h2>
