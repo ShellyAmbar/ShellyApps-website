@@ -23,8 +23,8 @@ const Header = () => {
         id="myVideo"
         className="video"
         src={video}
-        autoPlay
-        playsInLine
+        autoPlay={true}
+        playsInLine={true}
         loop
         muted
         ref={ref}
