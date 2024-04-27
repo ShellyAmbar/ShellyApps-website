@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import "./Header.css";
 
 import {Link} from "react-scroll";
@@ -12,9 +12,14 @@ import TypingAnimation from "../../customs/typing-animation/typing-animation";
 gsap.registerPlugin(ScrollTrigger);
 
 const Header = () => {
+  const ref = useRef(null);
+  useEffect(() => {
+    ref?.current?.play();
+  }, []);
+
   return (
     <div id="Header" className="header-wraper">
-      <video className="video" src={video} autoPlay loop muted />
+      <video className="video" src={video} autoPlay loop muted ref={ref} />
       <div className="main-info">
         <div className="content">
           <h2 className="title">Hi! I'm Shelly!</h2>
