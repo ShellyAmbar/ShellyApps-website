@@ -21,7 +21,7 @@ const CardProject = ({obj}) => {
           }}
           width="100%"
           height="100%"
-          className="video-player"
+          class="video-player"
           url={obj.youtubeLink}
           playing={isPlaying}
           onPause={() => {

@@ -8,7 +8,6 @@ import Header from "./components/views/sections/header/Header";
 import Projects from "./components/views/sections/projects/Projects";
 import Technologies from "./components/views/sections/technologies/Technologies";
 import Timeline from "./components/views/sections/timeline/Timeline";
-import Libraries from "./components/views/sections/libraries/libraries";
 
 function App() {
   useEffect(() => {
@@ -21,7 +20,6 @@ function App() {
       <About />
       <Timeline />
       <Projects />
-      <Libraries />
       <Technologies />
       <ContactMe />
     </div>
