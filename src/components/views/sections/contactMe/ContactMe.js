@@ -47,15 +47,15 @@ const ContactMe = () => {
         <div className="contact-in slide-in from-left">
           <h1>My Info</h1>
           <h2>
-            Phone <i class="fas fa-phone"></i>
+            Phone <i className="fas fa-phone"></i>
           </h2>
           <p>{phone}</p>
           <h2>
-            Email <i class="far fa-envelope"></i>
+            Email <i className="far fa-envelope"></i>
           </h2>
           <p>{email}</p>
           <h2>
-            Address <i class="fas fa-map-marker-alt"></i>
+            Address <i className="fas fa-map-marker-alt"></i>
           </h2>
           <p>{address}</p>
           <ul>
@@ -68,7 +68,7 @@ const ContactMe = () => {
                   )
                 }
               >
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </button>
             </li>
             <li>
@@ -80,7 +80,7 @@ const ContactMe = () => {
                   )
                 }
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </button>
             </li>
             <li>
@@ -92,7 +92,7 @@ const ContactMe = () => {
                   )
                 }
               >
-                <i class="fab fa-youtube"></i>
+                <i className="fab fa-youtube"></i>
               </button>
             </li>
             <li>
@@ -101,7 +101,7 @@ const ContactMe = () => {
                   window.open("https://wa.me/+972536200540", "_blank")
                 }
               >
-                <i class="fab fa-whatsapp"></i>
+                <i className="fab fa-whatsapp"></i>
               </button>
             </li>
           </ul>

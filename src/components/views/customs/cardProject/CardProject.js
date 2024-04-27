@@ -39,7 +39,7 @@ const CardProject = ({obj}) => {
               className="icon-btn"
               onClick={() => window.open(obj.youtubeLink, "_blank")}
             >
-              <i class="fab fa-youtube"></i>
+              <i className="fab fa-youtube"></i>
             </button>
           </li>
           <li>
@@ -47,12 +47,12 @@ const CardProject = ({obj}) => {
               className="icon-btn"
               onClick={() => window.open(obj.gitLink, "_blank")}
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </button>
           </li>
           {/* <li>
             <button className="icon-btn" onClick={() => {}}>
-              <i class="fab fa-staylinked"></i>
+              <i className="fab fa-staylinked"></i>
             </button>
           </li> */}
         </ul>
@@ -67,9 +67,9 @@ const CardProject = ({obj}) => {
             }
           >
             {isPlaying ? (
-              <i class="far fa-stop-circle fa-4x"></i>
+              <i className="far fa-stop-circle fa-4x"></i>
             ) : (
-              <i class="far fa-play-circle fa-4x"></i>
+              <i className="far fa-play-circle fa-4x"></i>
             )}
           </button>
         </div>

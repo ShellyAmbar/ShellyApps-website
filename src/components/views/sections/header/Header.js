@@ -22,11 +22,10 @@ const Header = () => {
   return (
     <div id="Header" className="header-wraper">
       <video
-        class="video-js"
         id="myVideo"
         className="video"
         autoPlay={true}
-        playsInLine={true}
+        playsInline={true}
         loop
         muted
         ref={ref}
