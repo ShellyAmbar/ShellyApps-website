@@ -17,7 +17,7 @@ const Header = () => {
     if (ref?.current !== null) {
       ref?.current?.play();
     }
-  }, [ref?.current]);
+  }, []);
 
   return (
     <div id="Header" className="header-wraper">
