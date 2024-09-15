@@ -9,7 +9,7 @@ const data = [
       "A react native game with more then 500 downloads, using custom hooks,redux toolkit with thunk middleware.",
   },
   {
-    title: "A 3D game in Unity with C#",
+    title: "Dateroulette - video-calling dating app",
     youtubeLink: "https://www.youtube.com/watch?v=UTTul1vwN1w",
     gitLink: "",
     siteLink:
