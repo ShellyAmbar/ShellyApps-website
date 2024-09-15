@@ -1,5 +1,23 @@
 const data = [
   {
+    title: "Simon",
+    youtubeLink: "https://www.youtube.com/watch?v=U9d-g6E4xdk&t=5s",
+    gitLink: "https://github.com/ShellyAmbar/SymonSaysGame",
+    siteLink:
+      "https://play.google.com/store/apps/details?id=com.shellyambar.SimonSays",
+    description:
+      "A react native game with more then 500 downloads, using custom hooks,redux toolkit with thunk middleware.",
+  },
+  {
+    title: "A 3D game in Unity with C#",
+    youtubeLink: "https://www.youtube.com/watch?v=UTTul1vwN1w",
+    gitLink: "",
+    siteLink:
+      "https://play.google.com/store/apps/details?id=com.shellyapps.hive",
+    description:
+      "A react native video-calling dating app with webrtc, using custom hooks,redux toolkit with thunk middleware.",
+  },
+  {
     title: "Portofilio in React",
     youtubeLink:
       "https://www.youtube.com/watch?v=bKAjkQCHIjc&ab_channel=ShellyAmbar",
