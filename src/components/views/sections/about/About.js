@@ -25,8 +25,9 @@ const About = () => {
         </p>
 
         <p className="about-section fade-in">
-          I have over 60 projects in my Github page with various types of
-          technologies.
+          I have over 100 projects in my Github page with various types of
+          technologies and some apps on Google play store with over 1000
+          downloads.
         </p>
         <p className="about-section fade-in">
           I'm hard-working and always looking to learn new technologies.

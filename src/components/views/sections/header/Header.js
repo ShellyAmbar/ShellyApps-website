@@ -41,7 +41,7 @@ const Header = () => {
       <div className="main-info">
         <div className="content">
           <h2 className="title">Hi! I'm Shelly!</h2>
-          <h1>A Mobile Apps and web developer</h1>
+          <h1>A mobile apps and fullStack developer</h1>
           <Link
             activeClass="active"
             to="ContactMe"
