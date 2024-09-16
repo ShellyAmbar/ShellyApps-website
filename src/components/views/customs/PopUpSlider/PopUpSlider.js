@@ -14,7 +14,7 @@ function PopUpSlider({data}) {
     slidesToScroll: 1,
     cssEase: "linear",
 
-    draggable: true,
+    draggable: false,
   };
 
   return (
