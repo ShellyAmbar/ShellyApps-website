@@ -5,7 +5,7 @@ import {Link} from "react-scroll";
 import {gsap} from "gsap";
 
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import video from "../../../../videos/1.mp4";
+import video from "../../../../videos/2.mp4";
 import logo from "../../../../images/me.jpg";
 import TypingAnimation from "../../customs/typing-animation/typing-animation";
 import sound from "../../../../sounds/1.mp3";

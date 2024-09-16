@@ -22,7 +22,7 @@ const CardProject = ({obj}) => {
           }}
           width="100%"
           height="100%"
-          class="video-player"
+          className="video-player"
           url={obj.youtubeLink}
           playing={isPlaying}
           onPause={() => {
@@ -43,14 +43,16 @@ const CardProject = ({obj}) => {
               <i className="fab fa-youtube"></i>
             </button>
           </li>
-          <li>
-            <button
-              className="icon-btn"
-              onClick={() => window.open(obj.gitLink, "_blank")}
-            >
-              <i className="fab fa-github"></i>
-            </button>
-          </li>
+          {obj.gitLink?.length > 0 && (
+            <li>
+              <button
+                className="icon-btn"
+                onClick={() => window.open(obj.gitLink, "_blank")}
+              >
+                <i className="fab fa-github"></i>
+              </button>
+            </li>
+          )}
           {/* <li>
             <button className="icon-btn" onClick={() => {}}>
               <i className="fab fa-staylinked"></i>

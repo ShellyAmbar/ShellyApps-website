@@ -8,8 +8,8 @@ import CardProject from "../cardProject/CardProject";
 function PopUpSlider({data}) {
   let settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
+    infinite: false,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: "linear",
@@ -21,7 +21,7 @@ function PopUpSlider({data}) {
     <div className="slider">
       <Slider {...settings}>
         {data.map((obj, index) => (
-          <CardProject key={index} obj={obj} />
+          <CardProject key={obj.id.toString()} obj={obj} />
         ))}
       </Slider>
     </div>
