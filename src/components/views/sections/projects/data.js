@@ -21,12 +21,12 @@ const data = [
   {
     id: 2,
     title: "Dateroulette - video-calling dating app",
-    youtubeLink: "https://www.youtube.com/watch?v=UTTul1vwN1w",
+    youtubeLink: "https://www.youtube.com/shorts/7NJSammxonk",
     gitLink: "",
     siteLink:
       "https://play.google.com/store/apps/details?id=com.shellyapps.hive",
     description:
-      "A react native video-calling dating app with webrtc, using custom hooks,redux toolkit with thunk middleware.",
+      "A react native video-calling dating app with chats,AR backgrounds during video using webrtc,mobx,firebase.",
   },
   {
     id: 3,
